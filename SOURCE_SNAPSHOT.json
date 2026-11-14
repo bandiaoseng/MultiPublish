@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-14",
+  "kind": "reviewed-source-snapshot",
+  "installer_release": false,
+  "source_files": 50,
+  "later_local_changes_not_in_snapshot": [
+    "src/main/inbox-adapters.ts",
+    "src/main/inbox-collect.ts",
+    "src/main/inbox-core.test.ts",
+    "src/main/inbox-page.ts",
+    "src/renderer/src/Inbox.tsx"
+  ],
+  "sanitized_files": [
+    "package.json"
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "243f3327a49a4a20e5bde52ac17eaa0d8c352d4cd4d07a2763abea1cf415131b"
+    },
+    {
+      "path": "docs/third-party/PostFlow-LICENSE.txt",
+      "sha256": "9b2dc8a4384df705680daeda6935760718daa49e1ff20ef27978a501f14ad938"
+    },
+    {
+      "path": "docs/third-party/social-auto-upload-LICENSE.txt",
+      "sha256": "8fd1171ac198090942b3e7f15887ec682cf010227e7afe74ee97f57351fd9f36"
+    },
+    {
+      "path": "electron.vite.config.ts",
+      "sha256": "11884f88ee4413b88ba3a35c63e1a6b5636ccfffe264eda844e8ffb3bccf0320"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "e044548a2acf5c9c532a7e575d81bf24c8deda85fcb233e547349a0f366adca1"
+    },
+    {
+      "path": "package.json",
+      "sha256": "070c11072d369be68e3b96fccb7e2c81c656e42f06369df5817b7754dab95c42"
+    },
+    {
+      "path": "src/main/baijiahao-cover.ts",
+      "sha256": "72033d69744640dfe6d0eaea837c0f4edad85ae85080e2288dc58f41b01efc16"
+    },
+    {
+      "path": "src/main/baijiahao-fixture.ts",
+      "sha256": "889590610a2331159658b1e96fc1b98c463f3cbfbe39ce493879c95cd6d3dfc4"
+    },
+    {
+      "path": "src/main/baijiahao-probe.ts",
+      "sha256": "caeed6ac6c4702fb8a3afe13fb2021942c62631ebc0e5ec8cc161d7b7678bd28"
+    },
+    {
+      "path": "src/main/baijiahao.test.ts",
+      "sha256": "3c8267da2ecfd7ab0412a88eb1eba01a57a10f98f26d22c548341dde25453e49"
+    },
+    {
+      "path": "src/main/baijiahao.ts",
+      "sha256": "a922555f44443ef7e0ff88d365636bc3c63e253f569a7c75922aa7df25dd8838"
+    },
+    {
+      "path": "src/main/browser-manager.ts",
+      "sha256": "b2a09212a01b0370d01c43ae8c8361b5711436dc6b06b4f273423597570845a9"
+    },
+    {
+      "path": "src/main/cover-aspect.ts",
+      "sha256": "3039571eb4e200b2ebe40747d7f2ddef5f8fb190c10c3f072f6cf61865fd0518"
+    },
+    {
+      "path": "src/main/cover-inspect.ts",
+      "sha256": "094b77da5733f257d567ecfba1ca3fc874987f20d6e627b7ae3a7ad8f07aad5d"
+    },
+    {
+      "path": "src/main/cover-regression.ts",
+      "sha256": "aef9d0d488f62b9874a1235eeff13b76eb0d6f4964dbc7642717c5797d5abd04"
+    },
+    {
+      "path": "src/main/ffmpeg.test.ts",
+      "sha256": "cae3f4b13937673cbb0d5fdb166a7523194587121011d036ae7631aeff9550aa"
+    },
+    {
+      "path": "src/main/ffmpeg.ts",
+      "sha256": "5c4fab3fa9ae80bca06f3fba08aa132dedbc0b218d6f76d2621e100d42f97fb7"
+    },
+    {
+      "path": "src/main/inbox-adapters.ts",
+      "sha256": "6b21bdef69a1e1c7b6da1b4ee4f1d4aa2af7976f9c868ba705df42d9ce5fc6b8"
+    },
+    {
+      "path": "src/main/inbox-collect.ts",
+      "sha256": "1249f8ec1fa64506f4cae74d2f024b1d81483a0f2b1b7029ea06337260736e41"
+    },
+    {
+      "path": "src/main/inbox-core.test.ts",
+      "sha256": "f58a0bfe124fcfc8956d681d84ee4c80a487e436b4639c985737d782c2717142"
+    },
+    {
+      "path": "src/main/inbox-core.ts",
+      "sha256": "e44c235404d4a1fe55c970a0998c8bd4fe1a77adc134e8e6b6d485c322d751df"
+    },
+    {
+      "path": "src/main/inbox-manager.ts",
+      "sha256": "c3990612bbcd0653fa55df1bc3d6a6048216f4fe37eef6b5254bd46a31eafaee"
+    },
+    {
+      "path": "src/main/inbox-page.ts",
+      "sha256": "2fa029c936e1e9f55835ebba0f18653af49ef06032a0dd336bb5a9d3f25447eb"
+    },
+    {
+      "path": "src/main/inbox-store.ts",
+      "sha256": "ef56530d6409497df416b708df70bc6707dff2e6146c5cca0efeaacbcc89a194"
+    },
+    {
+      "path": "src/main/inbox-tray.ts",
+      "sha256": "0a5823fc068c4654d5492b6f47080707fb2ca02c357df4ffb885b8c2c261494c"
+    },
+    {
+      "path": "src/main/index.ts",
+      "sha256": "1d46e90fe7928305b88e1ce126ff4d3226db296766684fd4ebeacd1e5c264abd"
+    },
+    {
+      "path": "src/main/local-paths.ts",
+      "sha256": "e40063cb5050577b51c1bf51aa4afdcfecd36187f8a37ff8a774a84785262440"
+    },
+    {
+      "path": "src/main/local-smoke.ts",
+      "sha256": "1ba29155fa6223178992df6e8d9cc7d70a11f8527d021ef13e4e6aa8ff724367"
+    },
+    {
+      "path": "src/main/persistent-store.test.mjs",
+      "sha256": "1ecfcf339c484d518f47615dcda429a84c02656447803ee04e0df9b5165d27a2"
+    },
+    {
+      "path": "src/main/persistent-store.ts",
+      "sha256": "0b0804d185c51aaa253bfbaff7f2c3fc3db9cdde100e76fca87dbcfc63fdaff3"
+    },
+    {
+      "path": "src/main/publish-verification.test.ts",
+      "sha256": "262098e21c7b7a2104e8b52c757cb5df17c986cb304ea6a6cf25f8653ed97232"
+    },
+    {
+      "path": "src/main/publish-verification.ts",
+      "sha256": "862d53f3321453a9044cad2eb2da574552c3dc401c75f05227d8fa033a6b5f08"
+    },
+    {
+      "path": "src/main/runtime-guard.ts",
+      "sha256": "7e2a4a1827882c69e7d712271a22e6c746ab738e7987e92edd6abcb0a7dda52d"
+    },
+    {
+      "path": "src/main/store.ts",
+      "sha256": "db75cea614de8837332a1529f83dfa48fba39d97f2fdb58ca042fa12f521c0cc"
+    },
+    {
+      "path": "src/main/video-cover-electron.ts",
+      "sha256": "1ec5c0185b7d4edcdbdfdb0cfdf351fdf04330cdb935e32ac8dbb534a66965c3"
+    },
+    {
+      "path": "src/main/video-cover-fixture.ts",
+      "sha256": "8eddb4afefcd96ee025259be96ccd546580de9fc44007eefc83512202a48afbc"
+    },
+    {
+      "path": "src/main/video-cover.test.ts",
+      "sha256": "fcf5b3c5e2d3808311b94f24916de293ee188197e0f9b0c69195e6013c2f522a"
+    },
+    {
+      "path": "src/main/video-cover.ts",
+      "sha256": "ca5f97b3bceb6746a95bc4bd247a22ecaa7e08742e5f99b3ff1a821c9efb6169"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "37cab76a587b073178d38b3561711632090bfbaddad688d6de35596676ffa466"
+    },
+    {
+      "path": "src/renderer/index.html",
+      "sha256": "b5d6cf7f455e087bf496964516cf2a6268f3d02743eec4b0d4ad64758347022e"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "sha256": "af88dc22af580fb7c520eaa649cee440fd61a79d1c1d97c918cd897bf24e9689"
+    },
+    {
+      "path": "src/renderer/src/Inbox.tsx",
+      "sha256": "9efa4f5cb6c7071df35807e021d3a26a3b5514e6d9ea10b818ca83d062b82351"
+    },
+    {
+      "path": "src/renderer/src/global.d.ts",
+      "sha256": "c95488168fd6484bce4a98791cd1114cc342a833278da2144543fe1dea6c74ed"
+    },
+    {
+      "path": "src/renderer/src/inbox.css",
+      "sha256": "b7f5fabba29bac14cca186342a31582faddb2b4846762c9246716b65b31900b5"
+    },
+    {
+      "path": "src/renderer/src/main.tsx",
+      "sha256": "533c49e17f0156647f0b2b42694ffea2f96eb299ffcb661612f53fca2c199237"
+    },
+    {
+      "path": "src/renderer/src/styles.css",
+      "sha256": "f3736409d34969fc4e38790fe312685923d2b9750b7bdfd7c85855df71745999"
+    },
+    {
+      "path": "src/shared/inbox.ts",
+      "sha256": "131e09babf024b2b2151d139c387aebeb24eb2aec656a3174104b883c111d860"
+    },
+    {
+      "path": "src/shared/platforms.ts",
+      "sha256": "cf7cae52b82cb09b5cb4d4c22808ae932879b40fb8a80d62e657d62510e04e74"
+    },
+    {
+      "path": "src/shared/types.ts",
+      "sha256": "8a556dafa9246f39c492ee5164818f3ab4cc7bf9f0a6ea5c2226e064a645ee78"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "7fac2287f0aa7b568a1904991b855e4c9bf0c4108a1bf11620cad8567e4c3622"
+    }
+  ],
+  "upstream": "https://github.com/whut09/MultiPublish",
+  "upstream_base_commit": "9d5dee1f94949f1343862250114f533ff5283e69",
+  "package_version": "0.1.57-fdrive.5",
+  "validation": {
+    "typecheck": true,
+    "unit_tests": 27,
+    "inbox_unit_tests": 5,
+    "build": true,
+    "dependency_environment": "existing local node_modules",
+    "node_version": "24.16.0",
+    "clean_install_tested": false,
+    "online_platform_tested": false
+  }
+}
