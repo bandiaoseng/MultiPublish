@@ -2,8 +2,8 @@ import { app } from 'electron';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
-// Personal F-drive build: never silently fall back to the system drive.
-const root = process.env.MULTIPUBLISH_USER_DATA_DIR || 'F:\\Codex\\MultiPublish\\data';
+// Per-user storage is independent of the install directory and survives upgrades.
+const root = process.env.MULTIPUBLISH_USER_DATA_DIR || path.join(app.getPath('appData'), 'MultiPublish');
 if (!path.isAbsolute(root)) throw new Error('MultiPublish 数据目录必须是绝对路径');
 const locations = {
   userData: root,

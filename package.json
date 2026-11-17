@@ -1,6 +1,6 @@
 {
   "name": "multipublish",
-  "version": "0.1.57-fdrive.5",
+  "version": "0.1.58",
   "description": "自媒体、短视频多平台一键发布平台",
   "main": "dist-electron/main/index.js",
   "author": "whut09",
@@ -50,6 +50,14 @@
       {
         "from": "node_modules/ffmpeg-static/ffmpeg.exe",
         "to": "ffmpeg/ffmpeg.exe"
+      },
+      {
+        "from": "node_modules/ffmpeg-static/ffmpeg.exe.LICENSE",
+        "to": "ffmpeg/LICENSE.txt"
+      },
+      {
+        "from": "node_modules/ffmpeg-static/ffmpeg.exe.README",
+        "to": "ffmpeg/SOURCE.txt"
       }
     ],
     "electronLanguages": [
@@ -61,14 +69,17 @@
       "target": [
         "nsis"
       ],
-      "artifactName": "MultiPublish-Setup-${version}.${ext}"
+      "artifactName": "MultiPublish-Setup-${version}.${ext}",
+      "signAndEditExecutable": false
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "runAfterFinish": false,
-      "createDesktopShortcut": false,
-      "createStartMenuShortcut": false
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "perMachine": false,
+      "deleteAppDataOnUninstall": false
     },
     "removePackageScripts": true
   },
